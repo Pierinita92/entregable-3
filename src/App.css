@@ -18,3 +18,9 @@
     text-align: center;
 }
 
+@media (max-width: 500px) {
+    .App_title{
+        font-size: 35px;
+    }
+
+}
