@@ -6,6 +6,7 @@ html{
   box-sizing: border-box;
   font-family: sans-serif;
   background-color: #062e33;
+  scroll-behavior: smooth;
 }
 
 *, *::after, *::before{
@@ -24,4 +25,10 @@ ul{
 
 h1, h2, h3, h4, h5, h6{
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  
 }

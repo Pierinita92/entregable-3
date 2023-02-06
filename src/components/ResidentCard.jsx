@@ -21,7 +21,9 @@ const ResidentCard = ({residentUrl}) => {
         <h4 className='residentCard_status_name'>{residentInfo?.status}</h4>
       </div>
         <section className='residentCard_info'>
+          <div className='residentCard_mw'>
           <h3 className='residentCard_name'>{residentInfo?.name}</h3>
+          </div>
           <hr className='residentCard_line'/>
           <ul className='residentCard_list'>
             <li className='residentCard_item'><span>Specie:</span>{residentInfo?.species}</li>
